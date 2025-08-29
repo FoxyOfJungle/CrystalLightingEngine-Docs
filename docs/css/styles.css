@@ -1,0 +1,50 @@
+
+/*
+@import "theme/content.css"; 
+@import "theme/cover.css"; 
+@import "theme/navbar.css";*/
+
+@import "theme/app.css";
+@import "theme/content.css";
+@import "theme/sidebar.css";
+
+footer {
+  background: rgb(8, 1, 26);
+  width: 100%;
+  height: 110px;
+}
+
+#custom-lists-page ol {
+  list-style-type: decimal; /* Garante a exibição de números em listas ordenadas */
+  margin-left: 0em; /* Recuo adequado */
+}
+
+#custom-lists-page ul {
+  list-style-type: disc; /* Garante a exibição de marcadores em listas não ordenadas */
+  margin-left: 1em; /* Recuo adequado */
+}
+
+/* Ajustes adicionais se necessário */
+/*#custom-lists-page ol li::marker, #custom-lists-page ul li::marker {
+  font-size: 1em;
+  color: black;
+}
+*/
+
+/* Forçar a exibição de números em listas ordenadas (ol) */
+/*ol {
+  list-style-type: decimal !important;
+  margin-left: 20px;
+}*/
+
+/* Garante que listas não ordenadas (ul) mostrem marcadores */
+/*ul {
+  list-style-type: disc !important;
+  margin-left: 20px;
+}*/
+
+/* Garante que sublistas também sigam as mesmas regras */
+/*ol li, ul li {
+  margin-left: 1em;
+}
+*/
